@@ -5,16 +5,16 @@
 
 # pip, virtualenv 설치
 
-file : 00.install.sh
+file : env/virtualenv.sh
 
 # tensorflow 설치
 
-file: 01.virtualenv.sh
+file: env/install.sh
 
 
 # tensorflow 기본 예제 두곱
 
-file : 02.test.py
+file : env/test.py
 ```
 source activate
 python shells/02.test.py
